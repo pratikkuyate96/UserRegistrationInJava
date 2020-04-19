@@ -13,4 +13,13 @@ public class UserRegistrationTest
         System.out.println("First name : "+result );
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void registerLastName_givenLastName_shouldReturnTrue()
+    {
+        UserRegistration userregister = new UserRegistration();
+        boolean result = userregister.registerLastName("Abc");
+        System.out.println("Last name : "+result );
+        Assert.assertTrue(result);
+    }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-19T13:15:19" hostname="HP" time="0.041">
+<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-19T13:36:00" hostname="HP" time="0.046">
   <properties/>
-  <testcase name="registerFirstName_givenFirstName_shouldReturnTrue" classname="com.bl.demo2.UserRegistrationTest" time="0.041"/>
-  <system-out><![CDATA[First name : true
+  <testcase name="registerLastName_givenLastName_shouldReturnTrue" classname="com.bl.demo2.UserRegistrationTest" time="0.046"/>
+  <system-out><![CDATA[Last name : true
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
