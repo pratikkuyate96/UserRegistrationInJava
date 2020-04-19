@@ -31,4 +31,14 @@ public class UserRegistrationTest
         System.out.println("Email Id : "+result );
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void registerMobileNo_givenMobileNo_shouldReturnTrue()
+    {
+        UserRegistration userregister = new UserRegistration();
+        boolean result = userregister.registerMobileNo("91 9687857485");
+        System.out.println("Mobile number : "+result );
+        Assert.assertTrue(result);
+    }
+
 }
