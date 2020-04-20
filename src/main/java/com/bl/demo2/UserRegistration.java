@@ -5,7 +5,7 @@ public class UserRegistration {
     public static final String PATTERN_OF_LASTNAME="^[A-Z][a-z]{2,}$";
     public static final String PATTERN_OF_EMAILID="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+[a-zA-Z]{2,4}$";
     public static final String PATTERN_OF_MOBILENO="^[0-9]{2}[ ][6-9]{1}[0-9]{9}$";
-    public static final String PATTERN_OF_PASSWORD="^[a-zA-Z0-9]{8,}$";
+    public static final String PATTERN_OF_PASSWORD="^[A-Za-z0-9]{1,}[a-zA-Z0-9]{8,}[!@#$%^&*-]{1}[a-zA-Z0-9]{1,}$";
 
     public boolean registerFirstName(String firstName)
     {

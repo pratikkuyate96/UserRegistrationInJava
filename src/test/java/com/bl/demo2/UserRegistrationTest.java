@@ -73,7 +73,7 @@ public class UserRegistrationTest
     public void givenValidPassword_shouldReturnTrue()
     {
         UserRegistration userregister = new UserRegistration();
-        boolean result = userregister.registerPassword("PratikKuyate65");
+        boolean result = userregister.registerPassword("PratikKuy&ate65");
         Assert.assertTrue(result);
     }
 
@@ -81,7 +81,7 @@ public class UserRegistrationTest
     public void givenInvalidPassword_shouldReturnFalse()
     {
         UserRegistration userregister = new UserRegistration();
-        boolean result = userregister.registerPassword("sh43");
+        boolean result = userregister.registerPassword("sh4%3");
         Assert.assertFalse(result);
     }
 

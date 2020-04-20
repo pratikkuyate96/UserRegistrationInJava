@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T20:30:14" hostname="HP" time="0.01">
+<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T20:40:24" hostname="HP" time="0.005">
   <properties/>
-  <testcase name="givenInvalidPassword_shouldReturnFalse" classname="com.bl.demo2.UserRegistrationTest" time="0.01"/>
+  <testcase name="givenValidPassword_shouldReturnTrue" classname="com.bl.demo2.UserRegistrationTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
