@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-19T16:49:06" hostname="HP" time="0.048">
+<testsuite name="com.bl.demo2.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T20:06:56" hostname="HP" time="0.008">
   <properties/>
-  <testcase name="registerMobileNo_givenMobileNo_shouldReturnTrue" classname="com.bl.demo2.UserRegistrationTest" time="0.048"/>
-  <system-out><![CDATA[Mobile number : true
-]]></system-out>
+  <testcase name="givenValidPassword_shouldReturnTrue" classname="com.bl.demo2.UserRegistrationTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
